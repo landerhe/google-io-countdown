@@ -829,12 +829,12 @@ IOWA.CountdownTimer.Core.prototype.setCanvasSize = function () {
     this.containerDomElement.offsetWidth * this.pixelRatio),
     (this.canvasElement.height =
       "horizontal" === this.format
-        ? (this.containerDomElement.offsetWidth / 2) * this.pixelRatio
+        ? (this.containerDomElement.offsetWidth / 3) * this.pixelRatio
         : this.containerDomElement.offsetWidth * this.pixelRatio),
     (this.canvasElement.style.width =
       this.containerDomElement.offsetWidth + "px"),
     (this.canvasElement.style.height =
       "horizontal" === this.format
-        ? this.containerDomElement.offsetWidth / 2 + "px"
+        ? this.containerDomElement.offsetWidth / 3 + "px"
         : this.containerDomElement.offsetWidth + "px");
 };
